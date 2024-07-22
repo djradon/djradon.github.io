@@ -1,0 +1,38 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+document.write('			<div class="bwTopLine"><table>        <tr><td><h3><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=34218&amp;cmp=10853&amp;crv=0&amp;pos=1&amp;frm=300&amp;imp=6013564630476523652" class="title">Foglight Solutions for Cross-Platform Database Performance Management</a></h3><div style="padding-bottom: 15px">Go beyond one-dimensional virtual machine performance. Foglight for Virtualization helps you visualize, analyze and optimize your entire virtual infrastructure health. In this technical brief, learn how Foglight simplifies cross-platform database performance monitoring and management. Read it today.</div></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td valign="middle" align="center"><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=34218&amp;cmp=10853&amp;crv=0&amp;pos=1&amp;frm=300&amp;imp=6013564630476523652" class="logo"><img src="https://web.archive.org/web/20140519125434/http://st.madisonlogic.com/images/userlogo/8/logo8100.jpg"  alt="Dell Software"/></a></td></tr>        <tr><td><h3><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=31081&amp;cmp=9780&amp;crv=0&amp;pos=2&amp;frm=300&amp;imp=6013564630476523652" class="title">The IT Buyer’s Guide to Web Conferencing</a></h3><div style="padding-bottom: 15px">The IT Buyer’s Guide to Web Conferencing</div></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td valign="middle" align="center"><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=31081&amp;cmp=9780&amp;crv=0&amp;pos=2&amp;frm=300&amp;imp=6013564630476523652" class="logo"><img src="https://web.archive.org/web/20140519125434/http://st.madisonlogic.com/images/userlogo/1/1868_Capture.PNG"  alt="PGi"/></a></td></tr>        <tr><td><h3><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=35166&amp;cmp=11645&amp;crv=0&amp;pos=3&amp;frm=300&amp;imp=6013564630476523652" class="title">Buyer\'s Guide: What Every Business Needs to Know When Selecting a Phone System</a></h3><div style="padding-bottom: 15px">This guide provides you with essential information and tools so you can understand your phone system options, and make the decision that meets the needs—and ambitions—of your business.</div></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td valign="middle" align="center"><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=35166&amp;cmp=11645&amp;crv=0&amp;pos=3&amp;frm=300&amp;imp=6013564630476523652" class="logo"><img src="https://web.archive.org/web/20140519125434/http://st.madisonlogic.com/images/userlogo/8/logo8298.png"  alt="RingCentral"/></a></td></tr>        <tr><td><h3><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=32954&amp;cmp=11267&amp;crv=0&amp;pos=4&amp;frm=300&amp;imp=6013564630476523652" class="title">The Hidden Costs of Optimizing Application Performance</a></h3><div style="padding-bottom: 15px">Choosing the right Application Performance Management (APM) solution can help IT operations staff deliver optimal service performance without requiring additional resources.\r\n' +
+'This guide will help you accurately assess all costs when evaluating APM products.</div></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td valign="middle" align="center"><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=32954&amp;cmp=11267&amp;crv=0&amp;pos=4&amp;frm=300&amp;imp=6013564630476523652" class="logo"><img src="https://web.archive.org/web/20140519125434/http://st.madisonlogic.com/images/userlogo/6/logo6436.JPG"  alt="Network Instruments"/></a></td></tr>        <tr><td><h3><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=36591&amp;cmp=11573&amp;crv=0&amp;pos=5&amp;frm=300&amp;imp=6013564630476523652" class="title">Info-Tech Vendor Landscape: Virtual Backup Software </a></h3><div style="padding-bottom: 15px">Find out why Symantec was named a “Champion” in virtual backup software.</div></td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td valign="middle" align="center"><a href="https://web.archive.org/web/20140519125434/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3968&amp;ctg=1&amp;tstamp=20140519T125434&amp;ast=36591&amp;cmp=11573&amp;crv=0&amp;pos=5&amp;frm=300&amp;imp=6013564630476523652" class="logo"><img src="https://web.archive.org/web/20140519125434/http://st.madisonlogic.com/images/userlogo/5/5413_symantec.gif"  alt="Symantec"/></a></td></tr>      </table>\r\n' +
+'<script type=\'text/javascript\'> (function () { _ml = window._ml || {}; _ml.eid = \'140\'; _ml.pub = \'88\'; _ml.ec = \'1\'; var s = document.getElementsByTagName(\'script\')[0], cd = new Date(), mltag = document.createElement(\'script\'); mltag.type = \'text/javascript\'; mltag.async = true; mltag.src = \'//ml314.com/tag.aspx?\' + cd.getDate() + cd.getMonth() + cd.getFullYear(); s.parentNode.insertBefore(mltag, s); })(); </s'+'cript>\r\n' +
+'');
+
+}
+/*
+     FILE ARCHIVED ON 12:54:34 May 19, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:48 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.711
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.016
+  esindex: 0.011
+  cdx.remote: 41.344
+  LoadShardBlock: 96.772 (3)
+  PetaboxLoader3.datanode: 54.825 (4)
+  PetaboxLoader3.resolve: 142.835 (2)
+  load_resource: 133.399
+*/

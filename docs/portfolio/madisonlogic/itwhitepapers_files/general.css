@@ -1,0 +1,734 @@
+/* general.css */
+
+body {
+	background-color:#b5bd9a;
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/container_bg.gif);
+	background-position:left top;
+	background-repeat:repeat-x;
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:center;
+}
+
+.clear {
+	clear:both;
+	font-size:1px;
+	height:1px;
+	line-height:1px;
+}
+
+h1 {
+	color:#002200;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	line-height:normal;
+	margin-bottom:5px;
+}
+
+h2 {
+	color:#002200;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:normal;
+	margin-bottom:5px;
+}
+
+h3 {
+	color:#AA3300;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:normal;
+	margin-bottom:5px;
+}
+
+h4 {
+	color:#336600;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height:18px;
+	margin-bottom:5px;
+	padding-top: 10px;
+}
+
+h5 {
+	color:#002200;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	line-height:17px;
+	margin-bottom:5px;
+}
+
+h6 {
+	color:#002200;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:16px;
+	margin-bottom:5px;
+}
+
+a:link,
+a:visited {
+	color:#336600;
+	text-decoration:none;
+}
+
+p a:link,
+p a:visited,
+ul a:link,
+ul a:visited,
+ol a:link,
+ol a:visited,
+.topics a:link,
+.topics a:visited,
+.search_link a:link,
+.search_link a:visited {
+	border-bottom:1px solid none;
+}
+
+p a:hover,
+p a:active,
+ul a:hover,
+ul a:active,
+ol a:hover,
+ol a:active,
+.topics a:hover,
+.topics a:active,
+.search_link a:hover,
+.search_link a:active {
+	color:#002200;
+	border-bottom:1px dotted #002200;
+}
+
+p, ul, ol {
+	color:#666655;
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:10px;
+}
+
+ul, ol {
+	margin-left:7px;
+}
+
+ol {
+	list-style-type:decimal;
+	padding-left:20px;
+}
+
+ul li,
+ol li {
+	padding-bottom:3px;
+}
+
+ul li {
+	/*background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/list_bullet.gif);*/
+	background-position:left 6px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+}
+
+img.thumbnail {
+	float:right;
+	margin-left:10px;
+}
+
+#container {
+	margin:0 auto;
+	text-align:left;
+	width:1046px;
+}
+
+#container #leaderboard {
+	height:90px;
+	margin:17px auto 18px;
+	width:728px;
+	background-color:#fff;
+}
+
+
+/* site header */
+
+#container #site_header {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/site_header.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:164px;
+	padding:0 21px;
+	position:relative;
+}
+
+#container #site_header #site_name {
+	position:absolute;
+	left:145px;
+	top:40px;
+	width:315px;
+	height:70px;
+}
+
+#container #site_header #site_name a {
+	border:none;
+	display:block;
+	height:100%;
+	width:100%;
+	text-indent:-9999px;
+	z-index:100;
+}
+
+
+#container #site_header #top_actions {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/actions_bg.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	color:#fff;
+	float:right;
+	font-size:11px;
+	height:26px;
+	line-height:26px;
+	margin-top:17px;
+	text-align:center;
+	text-transform:uppercase;
+	width:296px;
+}
+
+#container #site_header #top_actions a {
+	border-bottom:none;
+	color:#fff;
+	padding:0 5px;
+	text-decoration:none;
+}
+
+/* nav styles updated by Val Galluzzo, 1/27/09 */
+#container #site_header #nav {
+	position:absolute;
+	clear:both;
+	left:379px;
+	top:111px;
+	zoom:1;
+}
+
+*html #container #site_header #nav {
+	left:361px; /* I hate to use an IE6 hack, but this is the only way around it */
+}
+
+#container #site_header #nav ul {
+	height:32px;
+}
+
+#container #site_header #nav ul li {
+	background-image:none;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	height:33px;
+	line-height:29px;
+	margin:0 5px 0 0;
+	padding:0;
+}
+
+#container #site_header #nav ul li a {
+	border:none;
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	height:33px;
+	line-height:29px;
+	padding:0 0 0 20px;
+}
+
+#container #site_header #nav ul li.active a,
+#container #site_header #nav ul li a:hover {
+	background-color:#fff;
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/tab_left.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	color:#000;
+}
+
+
+#container #site_header #nav ul li a .tab {
+	display:block;
+	padding:4px 20px 0 0;
+	zoom:1;
+}
+
+#container #site_header #nav ul li.active a .tab,
+#container #site_header #nav ul li a:hover .tab {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/tab_right.gif);
+	background-position:right top;
+	background-repeat:no-repeat;
+}
+
+*html #container #site_header #nav ul li a,
+*html #container #site_header #nav ul li a .tab {
+	display:inline; /* I hate to use an IE6 hack, but this is the only way around it */
+}
+/* end nav style updates */
+
+/* end site header */
+
+#container .content {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/shadow_bg.gif);
+	background-position:left top;
+	background-repeat:repeat-y;
+	padding:0 21px;
+}
+
+
+/* left col */
+
+#container .content #left_col {
+	background-color:#fff;
+	float:left;
+	padding-left:10px;
+	width:614px;
+}
+
+#container .content #left_col .content_section {
+	margin-bottom:30px;
+}
+
+#container .content #left_col .content_section h2, h1.subhead {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/header_arrow.gif);
+	background-position:left 4px;
+	background-repeat:no-repeat;
+	color:#002200;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	line-height:normal;
+	margin-left:-10px;
+	margin-bottom:15px;
+	padding-left:21px;
+}
+
+#container .content #left_col #popular_topics .section_body {
+	padding-left:11px;
+}
+
+#container .content #left_col ul.topic_col {
+	float:left;
+	width:191px;
+}
+
+#container .content #left_col ul.topic_col li {
+	line-height:15px;
+}	
+
+#container #homepage #left_col h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	font-weight:normal;
+	line-height:20px;
+	margin-bottom:0px;
+}
+
+#container .content #left_col h3 a:link,
+#container .content #left_col h3 a:visited {
+	border-bottom:1px solid none;
+	color:#aa3300;
+}
+
+#container .content #left_col h3 a:hover,
+#container .content #left_col h3 a:active {
+	color:#770000;
+	border-bottom:1px dotted #770000;
+}
+
+
+
+#container .content #left_col .wp {
+	margin:0 10px 30px 11px;
+}
+
+#container .content #left_col .wp h3,
+#container .content #left_col .wp p,
+#container .content #left_col .wp ul,
+#container .content #left_col .wp ol {
+	margin-right:90px;
+}
+
+#container .content #left_col .all_topics_col {
+	float:left;
+	margin-left:11px;
+	width:290px;
+}
+
+#container .content #left_col .all_topics_col .category {
+	color:#336600;
+	font-size:14px;
+	font-weight:bold;
+	line-height:18px;
+}
+
+#container .content #left_col .all_topics_col .category a:hover{
+	color:#003300;
+	border-bottom:1px dotted #003300;
+}
+
+#container .content #left_col .all_topics_col .topics {
+	font-size:12px;
+	line-height:18px;
+	margin-bottom:20px;
+}
+	
+#container .content #left_col #search_library_left {
+	background-color:#e8e8d7;
+	margin-left:-10px;
+	padding:10px 0 9px;
+	zoom:1;
+}
+
+.footer_div {
+	background-position:left top;
+	background-repeat:repeat-y;
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/shadow_bg.gif);
+	background-color:#e8e8d7;
+	padding: 0 21px;
+}
+
+/* end left col */
+
+
+/* right col */
+
+#container .content #right_col {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/right_col_bg.gif);
+	background-position:left top;
+	background-repeat:repeat-y;
+	float:right;
+	padding-left:21px;
+	width:359px;
+}
+
+#container .content #right_col .content_section {
+	margin-bottom:15px;
+}
+
+#container .content #right_col .content_section h2 {
+	background-color:#d3d3b5;
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/header_arrow.gif);
+	background-position:left 13px;
+	background-repeat:no-repeat;
+	color:#002200;
+	font-size:18px;
+	font-weight:bold;
+	height:38px;
+	line-height:38px;
+	margin-bottom:15px;
+	padding-left:21px;
+}
+
+#container .content #right_col #search_library_right h2 {
+	background-color:transparent;
+	background-position:left 4px;
+	height:auto;
+	line-height:normal;
+	margin-bottom:5px;
+}
+
+#container .content #right_col #search_library_right .search_form {
+	float:left;
+	margin-left:21px;
+	display:inline;
+} 
+
+#container .content #right_col #search_library_right .search_form #search {
+	border:1px solid #deded2;
+	height:17px;
+	padding:1px;
+	vertical-align:top;
+	width:221px;
+}
+
+#container .content #right_col #search_library_right .search_link {
+	clear:both;
+	float:none;
+	font-size:12px;
+	height:21px;
+	line-height:21px;
+	margin-left:21px;
+}
+
+#container .content #right_col .content_section h3,
+#container .content #right_col .content_section p,
+#container .content #right_col .content_section ol,
+#container .content #right_col .content_section div.rightColPad,
+#container .content #right_col .content_section ul {
+	padding:0 21px;
+}
+
+#container .content #right_col .content_section h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	font-weight:normal;
+	line-height:normal;
+	margin-bottom:0;
+}
+
+#container .content #right_col .content_section h3 a:link,
+#container .content #right_col .content_section h3 a:visited {
+	border-bottom:1px solid none;
+	color:#AA3300;
+}
+
+#container .content #right_col .content_section h3 a:hover,
+#container .content #right_col .content_section h3 a:active {
+	border-bottom:1px dotted #770000;
+	color:#770000;
+}
+
+#container .content #right_col .content_section ol {
+	padding-left:41px;
+}
+
+#container .content #right_col .imu {
+	background-color:#fff;
+	border-right:1px solid #eaeae2;
+	height:280px;
+	padding:20px 11px;
+	width:336px;
+}
+
+/* end right col */
+
+
+/* footer */
+
+#container #footer {
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/footer_bg.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	clear:both;
+	font-size:11px;
+	font-weight:bold;
+	height:143px;
+	margin-bottom:17px;
+	padding:0 21px 19px;
+	width:1004px;
+}
+
+#container #footer a {
+	color:#000;
+	padding:0 2px;
+}
+
+#container #footer .copyright {
+	font-weight:normal;
+}
+
+#container #footer .footer_links {
+	padding:0 21px;
+	margin-bottom:10px;
+}
+
+#container #footer .module_header {
+	margin-bottom:10px;
+	padding-left:2px;
+	text-transform:uppercase;
+}
+
+#container #footer .logo {
+	float:right;
+	margin-left:10px;
+}
+
+/* end footer */
+
+
+
+
+
+/* added by drichardson 1/14/2009  */
+
+h3.abstractTitle {
+	font-size:24px !important;
+	line-height:25px !important;
+	margin-bottom: 8px !important;
+}
+
+#homecrumb {
+	color: #002200;
+}
+
+.breadcrumbs {
+	font-size: 11px;
+	padding-bottom: 4px;
+	background: transparent;
+}
+
+a.moreTopics2 {
+	font-size: 12px;
+}
+
+a.moreTopics2:hover{
+	color:#003300;
+	border-bottom:1px dotted #003300;
+}
+
+a.hoverLink:hover{
+	color:#003300;
+	border-bottom:1px dotted #003300;
+}
+
+a.hoverNavLink:hover{
+	color:#003300;
+	background-color:#E8E8D7;
+}
+
+div.navText2 {
+	font-size: 11px;
+}
+
+div.relatedTopics {
+	padding-top: 6px;
+}
+
+li.benefits2 {
+	font-size: 11px;
+	margin-left: 1em;
+}
+
+span.pageNavInactive {
+	color: #aaaaaa;
+}
+
+span.pageNavCurrent {
+	border:1px solid #003300;
+}
+
+span.numDocs {
+	font-size: 11px;
+}
+
+.contentNormalSmall{
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	font-weight:normal;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+}
+
+.contentBoldSmall{
+	font-size: 11px;
+	color: #000000;
+	font-style: normal;
+	font-weight:bold;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+}
+
+.noterrormsg{
+	display:none;
+}
+
+.passwordText{
+	font-size: 10px;
+	color: #000000;
+	font-style: normal;
+	padding-left:5px;
+	padding-top:1px;
+	padding-right:5px;
+}
+
+.searchBoxRed{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F10000;
+	border-right-color: #F10000;
+	border-bottom-color: #F10000;
+	border-left-color: #F10000;
+}
+
+.textRed{
+	font-size: 9px;
+	color: #F10000;
+	font-style: normal;
+	vertical-align:middle;
+}
+
+.textRedBig{
+	font-size: 12px;
+	color: #F10000;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+/* footer search styles updated by Val Galluzzo, 1/23/09 */
+#container #footer_search .search {
+	background-color:#e8e8d7;
+	padding:10px 0 9px;
+	zoom:1;
+}
+
+#container #footer_search .search h2 {
+	float:left;
+	margin:0;
+	background-color:transparent;
+	background-image:url(/web/20140607003757im_/http://www.itwhitepapers.com/images/header_arrow.gif);
+	background-position:left 4px;
+	background-repeat:no-repeat;
+	color:#002200;
+	font-size:18px;
+	font-weight:bold;
+	line-height:normal;
+	padding-left:21px;
+}
+
+#container #footer_search .search .search_form {
+	float:left;
+	margin-left:10px;
+} 
+
+#container #footer_search .search .search_form #search {
+	border:1px solid #deded2;
+	height:17px;
+	padding:1px;
+	vertical-align:top;
+	width:221px;
+}
+
+#container #footer_search .search .search_link {
+	float:left;
+	font-size:12px;
+	height:21px;
+	line-height:21px;
+	margin-left:10px;
+}
+/* end footer style updates */
+/*
+     FILE ARCHIVED ON 00:37:57 Jun 07, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:47 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.801
+  exclusion.robots: 0.041
+  exclusion.robots.policy: 0.025
+  esindex: 0.017
+  cdx.remote: 5.99
+  LoadShardBlock: 122.219 (3)
+  PetaboxLoader3.datanode: 90.035 (5)
+  PetaboxLoader3.resolve: 251.767 (3)
+  load_resource: 256.585 (2)
+*/

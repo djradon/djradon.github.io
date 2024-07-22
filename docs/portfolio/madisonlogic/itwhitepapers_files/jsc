@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+document.write('<div class="content_section"><h2>Special Report</h2><h3><a href="https://web.archive.org/web/20140519111949/http://clk.madisonlogic.com/clk?pub=88&amp;pgr=75&amp;src=3971&amp;ctg=1&amp;tstamp=20140519T111950&amp;ast=35166&amp;cmp=11645&amp;crv=0&amp;pos=1&amp;frm=300&amp;imp=6013564628928891023">Buyer\'s Guide: What Every Business Needs to Know When Selecting a Phone System</a></h3><div class="ml-module-content">This guide provides you with essential information and tools so you can understand your phone system options, and make the decision that meets the needs—and ambitions—of your business.</div></div>\r\n' +
+'<script type=\'text/javascript\'> (function () { _ml = window._ml || {}; _ml.eid = \'140\'; _ml.pub = \'88\'; _ml.ec = \'1\'; var s = document.getElementsByTagName(\'script\')[0], cd = new Date(), mltag = document.createElement(\'script\'); mltag.type = \'text/javascript\'; mltag.async = true; mltag.src = \'//ml314.com/tag.aspx?\' + cd.getDate() + cd.getMonth() + cd.getFullYear(); s.parentNode.insertBefore(mltag, s); })(); </s'+'cript>\r\n' +
+'');
+
+}
+/*
+     FILE ARCHIVED ON 11:19:49 May 19, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:48 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.825
+  exclusion.robots: 0.042
+  exclusion.robots.policy: 0.026
+  esindex: 0.014
+  cdx.remote: 142.617
+  LoadShardBlock: 307.49 (3)
+  PetaboxLoader3.resolve: 293.165 (4)
+  PetaboxLoader3.datanode: 265.267 (4)
+  load_resource: 274.21
+*/

@@ -1,0 +1,175 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0072)http://webcms.unicef.org/reddot5/ioRD.asp?Action=ShowLoginMask&LngId=ENG -->
+<HTML><HEAD><TITLE>RedDot Version 5.6</TITLE>
+<META http-equiv=Expires content=-1>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<META content="2002, RedDot Solutions" name=Copyright><LINK 
+href="RedDot_login_files/ioStyleSheet.css" type=text/css rel=Stylesheet>
+<STYLE type=text/css>.titlebar {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; TEXT-INDENT: 3px; LINE-HEIGHT: 19px; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #000080; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1476" name=GENERATOR>
+<META content=http://schemas.microsoft.com/intellisense/ie5 
+name=vs_targetSchema>
+<SCRIPT language=JAVASCRIPT src="RedDot_login_files/ioCheckEvent.js"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="RedDot_login_files/ioEditElement.js"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="RedDot_login_files/ioRDTree.js"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="RedDot_login_files/ioEditor.js"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT 
+src="RedDot_login_files/ioTemplateEditor.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+
+			onerror=null;
+			var Browser=navigator.appName;
+			var objDialogWindow=null;
+			var fJSVersionCheckOK = false;
+
+			document.onkeydown=CheckKey;
+
+			var chKey=0;
+			var fStrg;
+			function CheckKey(Key)
+				{
+					if (Key) { 
+						chKey=Key.which;
+						fStrg=Key.ctrlKey;
+					}
+					else {
+						chKey=window.event.keyCode;
+						fStrg=window.event.ctrlKey;
+					}
+
+					if (fStrg && chKey==78) return false;
+					if (chKey == 13) return CheckInput();
+										//{ document.ioLogin.submit(); return false; }
+					
+					return true;
+				}
+
+			function CompareJSFileVersions()
+			{
+				var sError = "";
+
+				
+				if ("1.33" != sScriptVersionCheckEvent) sError = "The script file 'ioCheckEvent.js' is not available in the current version. Clear the browser cache and refresh the logon mask. \nIf the problem persists, please contact your RedDot Administrator.";
+				
+				if ("1.33" != sScriptVersionEditElement) sError = "The script file 'ioEditElement.js' is not available in the current version. Clear the browser cache and refresh the logon mask. \nIf the problem persists, please contact your RedDot Administrator.";
+				
+				if ("5.28" != sScriptVersionTree) sError = "The script file 'ioRDTree.js' is not available in the current version. Clear the browser cache and refresh the logon mask. \nIf the problem persists, please contact your RedDot Administrator.";
+				
+				if ("5.123" != sScriptVersionEditor) sError = "The script file 'ioEditor/ioEditor.js' is not available in the current version. Clear the browser cache and refresh the logon mask. \nIf the problem persists, please contact your RedDot Administrator.";
+				
+				
+			
+				//while scanning Versions no error occur
+				fJSVersionCheckOK = true;
+
+				if (sError != "") 
+					{ alert(ConvertToAscii(sError)); return false; }
+				
+				return true;
+			}
+
+
+			function CheckInput()
+				{
+					var fJSVersionsOK=false;
+					if (window.document.ioLogin.UserName.value == "")
+						{
+									document.ioLogin.UserName.focus();
+									return false;
+						}
+					else
+						{
+							fJSVersionsOK = CompareJSFileVersions();
+							if (fJSVersionCheckOK == true && fJSVersionsOK==true) { document.ioLogin.submit(); return false; } //return true;
+							if (fJSVersionCheckOK != true) alert(ConvertToAscii("At least one script file is not available in the current version. Clear the browser cache and refresh the logon mask. \nIf the problem persists, please contact your RedDot Administrator."));
+						} 
+
+					return false;
+				}
+
+
+			function getRedDotTop() 
+				{						
+					var sTargetFrame="_top";//Target of CMS
+					var sFrameName=window.name;//Name of CMS window
+					var sFrameSet=""; //all frames from top to CMS window					
+
+					document.ioLogin.RedDotTop.value=sFrameSet;			
+					document.ioLogin.RedDotTarget.value=sTargetFrame;	
+
+				}
+				
+
+		</SCRIPT>
+</HEAD>
+<BODY bottomMargin=-50 bgColor=#f0f0f0 leftMargin=0 topMargin=0 
+onload=getRedDotTop();window.document.ioLogin.UserName.focus();document.ioLogin.UserName.select(); 
+rightMargin=0 marginheight="0" marginwidth="0" onsubmit="getRedDotTop()">
+<TABLE height="100%" width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height="20%"></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <TABLE class=tdgrey cellSpacing=3 cellPadding=0 width=396 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD class=tdgreylight>
+            <FORM name=ioLogin action=ioRD.asp method=post><INPUT type=hidden 
+            value=Login name=Action> <INPUT type=hidden value=top 
+            name=RedDotTop> <INPUT type=hidden value=_top name=RedDotTarget> 
+            <INPUT type=hidden value=0 name=createCookie> 
+            <TABLE width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=titlebar width="100%" colSpan=5>Logon</TD></TR>
+              <TR>
+                <TD class=tdwhite vAlign=center align=left colSpan=5><IMG 
+                  title="Version 5.6 Build 5.6.1.8" 
+                  src="RedDot_login_files/cms_login_logo.gif" border=0></TD></TR>
+              <TR>
+                <TD><IMG height=1 src="RedDot_login_files/empty.gif" 
+                width=10></TD>
+                <TD width="30%"></TD>
+                <TD width="1%"></TD>
+                <TD width="69%">&nbsp;</TD>
+                <TD></TD></TR>
+              <TR>
+                <TD></TD>
+                <TD class=label>User name</TD>
+                <TD colSpan=2><INPUT size=38 name=UserName></TD>
+                <TD><IMG height=1 src="RedDot_login_files/empty.gif" 
+                width=10></TD></TR>
+              <TR>
+                <TD></TD>
+                <TD class=label>Password</TD>
+                <TD colSpan=2><INPUT type=password size=38 name=Password></TD>
+                <TD></TD></TR><!--ioBegin ChangeProfile-->
+              <TR>
+                <TD colSpan=2></TD>
+                <TD><INPUT type=checkbox value=ON name=C1></TD>
+                <TD class=SmallComment>Edit profile after logon</TD>
+                <TD></TD></TR><!--ioEnd ChangeProfile-->
+              <TR>
+                <TD colSpan=5><IMG height=10 
+                  src="RedDot_login_files/empty.gif" width=1></TD></TR>
+              <TR>
+                <TD colSpan=3></TD>
+                <TD><IMG height=1 src="RedDot_login_files/empty.gif" 
+                  width=120> <A onclick="CheckInput(); return false;" 
+                  href="javascript:void(0)"><IMG id=Image1 height=21 
+                  src="RedDot_login_files/dlg_start_eng.gif" border=0></A> 
+</TD></TR>
+              <TR>
+                <TD colSpan=5><IMG height=5 src="RedDot_login_files/empty.gif" 
+                  width=1></TD></TR></TBODY></TABLE></FORM></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>

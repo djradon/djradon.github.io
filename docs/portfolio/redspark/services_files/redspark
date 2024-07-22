@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Red Spark</title>
+<style type="text/css">
+<!--
+a:hover {color: #FFDD31;}
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="FFFFFF" link="FFFFFF" alink="FFDD31" vlink="FFFFFF">
+
+<table width="100%" height="100%" border=0 cellpadding=0 cellspacing=0>
+<tr><td>
+
+<table width=669 height=430 align="center" bgcolor="333399" border=0 cellpadding=0 cellspacing=0>
+		<tr valign="top"><td height=76>
+			<table border=0 cellspacing=0 cellpadding=8>
+				<tr>
+					<td valign="top">
+<img border=0 align="left" alt="Red Spark" width="70" height="60" src="images/logo_on_blue.gif">					</td>
+				</tr>
+			</table>
+		</td></tr>
+		<tr><td height=354 valign="bottom" background="images/bg_consulting.gif"><font face="Tahoma, Arial, Helvetica" size=3>
+			<center><a href="services.html"><img border=0 alt="What can we do for you?" width="128" height="83" src="images/splash.gif"></a></center>
+			<blockquote><blockquote><blockquote><blockquote><blockquote>
+				This site is here to let you know what web services and products Red Spark provides.
+			</blockquote></blockquote></blockquote></blockquote></blockquote>
+			<center><br><br></center>
+			<table align="right" border=0 cellspacing=0 cellpadding=24><tr><td><font face="Tahoma, Arial, Helvetica" size=3><a href="services.html"><font color="ffdd31">Our Services</font></a> | <a href="products.html"><font color="ffdd31">Our Products</font></a></font></td></tr></table></font></td></tr>
+</table>
+
+</td></tr>
+</table>
+
+</body>
+
+</html>

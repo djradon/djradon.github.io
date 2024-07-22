@@ -1,0 +1,144 @@
+<SCRIPT LANGUAGE=JavaScript>
+      <!--
+	  	numPages=11;
+		currentPage=1;
+		prefix="2005-04-04_redneck_buddies-";
+		suffix=".jpg";
+		imagesPerSpread = 1;	// this should usually be 1 or 2
+		rows = 1;				// this should normally be 1
+		isFirstPageAlone = true;	// this determines whether the first image-page appears by itself (ie., title page)
+		cellPad = 0;
+		
+		
+		altText = new Array();
+		
+		altText[1] = "Red dropped in yesterday while Uncle Joe were visitin, an' my ol' lady got the whole thing on film.";
+		altText[2] = "Uncle Joe'd lost a bet to Red a coupla week back and hain't paid up. ";
+		altText[3] = "Bein' a peace maker, I hollard for the MGD, keepin' my eye on Red the whole time.";
+		altText[4] = "He done got right in my face...";
+		altText[5] = "...yanked down my good hat so as I cain't see nothin...";
+		altText[6] = "...grabbed Joe...";
+		altText[7] = "...and chewed off his nose.";
+		altText[8] = "Before I realised what was happenin...";
+		altText[9] = "...Red was at 'er again.";
+		altText[10] = "<br />";
+		altText[11] = "In no time flat, Uncle Joe was screamin he'd pay up. That Red sure knows how to collect a bet.";
+
+		// from http://developer.netscape.com/viewsource/fields_form.html
+		function createRequestObject() 
+		{ 
+		    var request   = new Object();         // Creates a new request object. 
+		    var nameVal   = "";                   // Holds array for a single name-value pair. 
+		    var inString  = location.search;      // Strips query string from URL. 
+		    var separator = ",";                   // Character used to separate multiple values. 
+		
+		   // If URL contains a query string, grabs it. 
+		    if (inString.charAt(0) == "?") 
+		    { 
+		        // Removes "?" character from query string. 
+		        inString = inString.substring(1, inString.length); 
+		        // Separates query string into name-value pairs. 
+		        keypairs = inString.split("&"); 
+		        // Loops through name-value pairs. 
+		        for (var i=0; i < keypairs.length; i++) 
+		        { 
+		            // Splits name-value into array (nameVal[0]=name, nameVal[1]=value). 
+		            nameVal = keypairs[i].split("="); 
+		            // Replaces "+" characters with spaces and then unescapes name-value pair. 
+		            for (a in nameVal) 
+		            { 
+		               nameVal[a] = nameVal[a].replace(/\+/g, "_") 
+		               nameVal[a] = unescape(nameVal[a]); 
+		            } 
+		            // Checks to see if name already exists in request object 
+		            // (since select lists may contain multiple values). 
+		            if (request[nameVal[0]]) 
+		            { 
+		               request[nameVal[0]] += separator + nameVal[1]; 
+		            } 
+		            else 
+		            { 
+		               request[nameVal[0]] = nameVal[1]; 
+		            } 
+		        } 
+		    } 
+		    return request; 
+		} 
+
+
+		// Builds our request object. 
+		request=createRequestObject(); 
+
+		if(request.page > 0 || request.page <= numPages)
+		{
+			currentPage = request.page * 1;
+		} 
+		
+		// fix currentPage so that it refers to the first page in the corresponding containing spread
+		if(currentPage != 1)
+		{
+			 currentPage = currentPage - ((currentPage % imagesPerSpread));
+		}
+
+
+		//imageSrc1 = prefix + currentPage + suffix;
+		//if (imagesPerSpread ==2) imageSrc2 = prefix + ((currentPage * 1) + 1 ) + suffix;
+		
+		imageSrc = "";
+		
+		for(i=0;i<imagesPerSpread;i++)
+		{
+			imageSrc[i + 1] = prefix + (currentPage + i) + suffix;
+			//eval("imageSrc" + i + " = prefix + ((currentPage * 1) + (i - 1)) + suffix;");
+			//eval("nextImg" + i + " = prefix + ((currentPage * 1 ) + " + i + ") + suffix;");
+		}	
+
+
+		function prevPage()
+		{
+			if (currentPage > 2 && currentPage <= numPages)
+			{
+				return (currentPage * 1) - imagesPerSpread;
+			} else
+			{
+				return 1;
+			}
+		}
+	
+		function nextPage()
+		{
+			if (currentPage == 1 && isFirstPageAlone) return 2;
+			if (currentPage > 0 && currentPage <= (numPages - imagesPerSpread))
+			{
+				return (currentPage * 1) + imagesPerSpread;
+			} else
+			{
+				return 1;
+			}
+		}
+		
+	
+	
+		function preLoad()
+		{
+		
+		}
+		
+		 
+		buffer = "<head><title>redneck buddies: pg " + currentPage + "</title></head>";
+		buffer += "<body bgcolor=\"#000000\" link=\"#FFFFFF\" alink=\"#FFFFFF\" vlink=\"#FFFFFF\" onLoad=\"preLoad();\">";
+		buffer+="<br><center><table cellpadding=0 cellspacing=0 border=0 width=1024><tr><td><font color=\"#FFFFFF\" face=\"courier new, courier, monospace\" size=+2><b>redneck buddies</b></td><td align=\"right\"><font color=\"#FFFFFF\" face=\"courier new, courier, monospace\"></td></tr><tr><td colspan=2>";
+		buffer += "<img alt=\"" + altText[currentPage] + "\" src=\"" + prefix + currentPage + suffix + "\" border=0 name=\"page\"></td></tr>";
+		
+    buffer += "</td></tr><tr><td colspan=2 align=\"center\"><font color=\"#FFFFFF\" face=\"courier new, courier, monospace\">";
+
+    buffer += altText[currentPage];
+		buffer += "</font></td></tr><tr><td></td><td align=\"right\">";
+		if (currentPage < numPages) { 
+			buffer += "<br /><font color=\"#FFFFFF\" face=\"courier new, courier, monospace\">				<a href=\"?page=" + nextPage() + "\" style=\"text-decoration: none\" > --></a>";
+		} 
+		buffer += "</td></tr></table></center></html>";
+		
+		      document.write(buffer)
+		    //-->
+    </SCRIPT>

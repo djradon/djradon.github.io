@@ -1,0 +1,243 @@
+UNKNOWN {
+	SCROLLBAR-FACE-COLOR: #eeeeee; FONT-SIZE: 12px; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; FONT-FAMILY: Arial; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial
+}
+.bodyBGColorIoDialog {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; BACKGROUND-COLOR: #ffffff
+}
+.bodyBGColorSilver {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; BACKGROUND-COLOR: #c0c0c0
+}
+.bodyBGColorCMSMenu {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; BACKGROUND-COLOR: #000080
+}
+.bodyBGColorBlack {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; BACKGROUND-COLOR: #000000
+}
+.bodyBGColorActionMenu {
+	SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #eeeeee; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: #eeeeee; BACKGROUND-COLOR: #e6e6e6
+}
+.FontGreen {
+	COLOR: #008000
+}
+.FontBoldSize2Arial {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; FONT-FAMILY: Arial
+}
+.FontBoldSize2ArialWhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ffffff; FONT-FAMILY: Arial
+}
+.FontSize2Arial {
+	FONT-SIZE: 13px; FONT-FAMILY: Arial
+}
+.FontSize4 {
+	FONT-SIZE: 18px
+}
+.FontSize2 {
+	FONT-SIZE: 13px
+}
+.FontSize2SSerif {
+	FONT-SIZE: 13px; FONT-FAMILY: sans-serif
+}
+.FontSize2ArialBlack {
+	FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: Arial
+}
+.InactiveEntry {
+	FONT-WEIGHT: bold; COLOR: #808080
+}
+.SmallComment {
+	FONT-SIZE: 10px
+}
+.AccentedSmallComment {
+	FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.AccentedSmallCommentBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.normalcenter {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: center
+}
+.normal {
+	FONT-SIZE: 12px; FONT-FAMILY: arial,verdana,sans-serif
+}
+.normalgrey {
+	FONT-SIZE: 12px; COLOR: #808080; FONT-FAMILY: arial,verdana,sans-serif
+}
+.normalred {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: arial,verdana,sans-serif
+}
+.normalright {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: right
+}
+.redBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: arial,verdana,sans-serif
+}
+.greyBold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #808080; FONT-FAMILY: arial,verdana,sans-serif
+}
+.titlebar {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; LINE-HEIGHT: 19px; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #000080; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.titlebarinfo {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #ffffff; LINE-HEIGHT: 19px; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #000080; TEXT-ALIGN: right; BORDER-RIGHT-WIDTH: 0px
+}
+.label {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: left
+}
+.labelright {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: right
+}
+.labelcenter {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: center
+}
+.menulink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; VERTICAL-ALIGN: super; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: center
+}
+.bluelinknoalign {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif
+}
+.bluelink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: left
+}
+.bluelinkright {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: right
+}
+.bluelinkcenter {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-ALIGN: center
+}
+.bluelinkcenterBGWhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.VersionFont {
+	FONT-SIZE: 10px; COLOR: #ffffff
+}
+.GreyFont {
+	COLOR: #808080
+}
+.SilverFontBold {
+	FONT-WEIGHT: bold; COLOR: #c0c0c0
+}
+.FontBlueBold {
+	FONT-WEIGHT: bold; COLOR: blue
+}
+.FontNavyBold {
+	FONT-WEIGHT: bold; COLOR: navy
+}
+.AccentedFont {
+	FONT-WEIGHT: bold
+}
+.FontArial20000FF {
+	FONT-SIZE: 13px; COLOR: #0000ff; FONT-FAMILY: arial,verdana,sans-serif
+}
+.TableTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #000080
+}
+.BigComment {
+	FONT-SIZE: 24px
+}
+.ReportFont {
+	FONT-FAMILY: courier new
+}
+TD {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: arial,verdana,sans-serif
+}
+.tdgrey {
+	BACKGROUND-COLOR: #cccccc
+}
+.tdgreylight {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.tdgreyborder {
+	BACKGROUND-COLOR: #808080
+}
+.TDRedBorder {
+	BACKGROUND-COLOR: red
+}
+.tdwhite {
+	BACKGROUND-COLOR: #ffffff
+}
+.tdnavy {
+	BACKGROUND-COLOR: #000080
+}
+.TDGrey1 {
+	BACKGROUND-COLOR: #808080
+}
+.TDSilver {
+	BACKGROUND-COLOR: #c0c0c0
+}
+.TDBorderColWhite {
+	BORDER-LEFT-COLOR: #ffffff; BORDER-BOTTOM-COLOR: #ffffff; BORDER-TOP-COLOR: #ffffff; BORDER-RIGHT-COLOR: #ffffff
+}
+.TDBorderColRed {
+	BORDER-LEFT-COLOR: #ff0000; BORDER-BOTTOM-COLOR: #ff0000; BORDER-TOP-COLOR: #ff0000; BORDER-RIGHT-COLOR: #ff0000
+}
+.TDBorderColGrey {
+	BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-COLOR: #cccccc; BORDER-TOP-COLOR: #cccccc; BORDER-RIGHT-COLOR: #cccccc
+}
+.TDBorderColBlack {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+.TDGreyBorderGrey {
+	BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-COLOR: #cccccc; BORDER-TOP-COLOR: #cccccc; BACKGROUND-COLOR: #cccccc; BORDER-RIGHT-COLOR: #cccccc
+}
+.HTMLAnchorFont {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #ffffff
+}
+A {
+	FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #000080; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif
+}
+A.CMSMenu {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-DECORATION: none
+}
+A.CMSMenu:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif; TEXT-DECORATION: underline
+}
+A.CMSMenu:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif
+}
+A.CMSMenu:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14px; FONT-FAMILY: arial,verdana,sans-serif
+}
+.InputBGColGreyLight {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.InputBGColGrey {
+	BACKGROUND-COLOR: #cccccc
+}
+.HRShadowDarkGrey {
+	COLOR: #808080
+}
+.menuebar {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #000080
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: arial,verdana,sans-serif
+}
+HR.actionmenue {
+	COLOR: navy; HEIGHT: 1px
+}
+P.actionmenue {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 25px; TEXT-INDENT: -25px
+}
+P.dialogtext {
+	MARGIN-LEFT: 4px
+}
+.MCFileAttributeRow {
+	FONT-SIZE: 10px; FONT-FAMILY: Arial,verdana,sans-serif; BACKGROUND-COLOR: white
+}
+.MCFileAttributesContainer {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 100%; TEXT-INDENT: 1px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #c0c0c0
+}
+.Headline {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; FONT-FAMILY: Arial,verdana,sans-serif
+}

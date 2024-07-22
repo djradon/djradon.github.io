@@ -1,0 +1,46 @@
+body { font-size:10px; color:#000000; font-family: verdana,sans-serif; background-color:#ffaa11;
+	overflow-x:hidden; overflow-y:auto;
+}
+
+.thisText {font-family: verdana, sans-serif;font-size:11px; }
+
+h1 {font-family: verdana, sans-serif;font-size:14px; padding:0px; margin:0px 0px 10px 0px; }
+h2 {font-family: verdana, sans-serif;font-size:14px; padding:0px; margin:0px; }
+
+b { font-size:10px; color:#000033; font-family: verdana, sans-serif;  font-weight: bold;}
+
+b.bigger { font-size:12px; color:#000033; font-family: verdana, sans-serif;  font-weight: bold;}
+
+b.white { font-size:10px; color:#ffffff; font-family: verdana, sans-serif;  font-weight: bold;}
+
+i { font-size:10px; color:#000033; font-family: verdana, sans-serif;  font-style:italic;}
+p { font-size:10px; color:#000033; font-family: verdana, sans-serif; }
+td { font-size:10px; color:#000033; font-family: verdana, sans-serif; width:25%;}
+
+a.head{ text-decoration: underline; font-size:14px;}
+a:visited{ text-decoration: underline; color: #ffaa11; }
+a:hover{ text-decoration: underline; color: #000048;}
+
+ul	{margin: 0px;
+	padding: 0px;
+}
+
+ul li {list-style-type: none;
+		margin-top: 10px;
+		padding: 0px;
+}
+
+
+.box {
+        BORDER-TOP:    #333333 1px solid; 
+        BORDER-LEFT:   #333333 1px solid; 
+        BORDER-BOTTOM: #333333 1px solid; 
+        BORDER-RIGHT:  #333333 1px solid; 
+		margin: 10px;
+		padding: 5px;
+		background-color:	#FAFAFF;
+}
+
+.year {
+	font-style: italic;
+}

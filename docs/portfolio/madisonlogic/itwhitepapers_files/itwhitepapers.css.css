@@ -1,0 +1,781 @@
+/* css common */
+
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	color: #000;
+	background-color: #b3bb97 !important;
+}
+
+p.ml-paragraph {
+	margin-top: 5px !important; 
+	margin-bottom: 8px !important; 
+}
+
+/*--------
+  crumbs
+  --------*/
+
+#tn-crumbs-wrapper a { color: #CB250A !important }
+#tn-crumbs-wrapper a:hover { color: #CB250A !important }
+
+
+/*---------------------
+  padding
+  ----------------------*/
+
+.padTopBottom {
+	padding-top: 15px; padding-bottom: 15px;
+}
+
+.padTop {
+	padding-top: 15px;
+}
+
+.padListing {
+	padding-top: 15px; padding-bottom: 15px;
+}
+
+.paragraph_heading {
+	margin-top: 17px; margin-bottom: 2px;
+	padding-top: 3px; padding-bottom: 3px;
+}
+
+/*---------------------
+ header 
+ ------------------------*/
+
+.contentNormal{
+	color: #000;
+	font-style: normal;
+	font-weight: normal;
+	padding-left: 0px;
+	padding-top: 1px;
+	padding-right: 0px;
+	line-height: 1.35em;
+	font-size: 12px;
+}
+
+.passwordText{
+	font-size: 11px;
+	color: #000;
+	font-style: normal;
+	padding-left:5px;
+	padding-top:1px;
+	padding-right:5px;
+}
+
+.spacing{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+}
+
+/* ---------------------
+mambo content layout
+--------------------- */
+
+.greenBar1{
+	background-color: #CB250A;
+}
+
+.grayLine1{
+	background-color: #f2f2f2;	
+}
+
+.contentNormalSmall{
+	font-size: 0.85em;
+	color: #000;
+	font-style: normal;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+	text-align:left;
+	font-weight:normal;
+	line-height:13px;
+}
+
+.contentBold{
+	color: #000;
+	font-weight:bold;
+}
+
+.contentBoldSmall{
+	font-size: 11px;
+	color: #000;
+	font-style: normal;
+	font-weight:bold;
+}
+
+.boxSubHead{
+	font-size: 11px;
+	color: #000;
+	font-style: normal;
+	font-weight:normal;
+	padding-top:2px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+a, a:active, a:link, a:visited {
+	color: #0878A6;
+	text-decoration: none;
+}
+
+a:hover{ 
+	color: #002200;
+	text-decoration: underline;
+}
+
+.bg-box{
+	background-color: #f2f2f2;
+	border: 1px solid #CB250A;
+}
+
+.bg-box2{
+	background-color: #F2F2F2;
+	border: 1px solid #7F7F7F;
+}
+
+.ml-border{
+	border: 1px solid #CB250A;
+}
+
+.ml-border2{
+	border: 1px solid #7F7F7F;
+}
+
+.SmallText {
+	font-size: .875em; 
+}
+
+.errormsg{
+	display:block;
+}
+
+.noterrormsg{
+	display:none;
+}
+
+.textRedBig{
+	font-size: 1em;
+	color: #F10000;
+	font-weight:bold;
+	vertical-align:middle;
+}
+
+.searchBoxRed{
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F10000;
+	border-right-color: #F10000;
+	border-bottom-color: #F10000;
+	border-left-color: #F10000;
+}
+
+.loginBoxRed{
+	padding-top:5px;
+	height: 20px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F10000;
+	border-right-color: #F10000;
+	border-bottom-color: #F10000;
+	border-left-color: #F10000;
+}
+
+.textRed{
+	font-size: .9em;
+	color: #F10000;
+	font-style: normal;
+	vertical-align:middle;
+}
+
+.searchBox1{
+	height:20px;
+	border: 1px solid #7F7F7F;
+}
+
+
+.hideSwitch {
+    display:none;
+}
+
+.showSwitch {
+    display:block;
+}
+
+.bwTopBottomLine{
+	border-top: 0px solid #7F7F7F; 
+	border-bottom: 0px solid #7F7F7F; 
+}
+
+.bwTopBottomThinLine{
+	border-top: 1px solid #7F7F7F; 
+	border-bottom: 1px solid #7F7F7F; 
+}
+
+.bwTopLine{
+	border-top: 0px solid #7F7F7F; 
+}
+
+.bwTopThinLine{
+	border-top: 1px solid #7F7F7F; 
+}
+
+.bwBottomLine{
+	width:100%; 
+	border-bottom: 0px solid #7F7F7F; 
+}
+
+.bwBottomThinLine{ 
+	width:100%; 
+	border-bottom: 1px solid #7F7F7F; 
+}
+
+.bwlists {
+	list-style-type: disc; 
+	margin-left: 1em;
+}
+
+
+div.thankyoupage {
+	text-align: left;
+	font-size: medium;
+	background: #F2F2F2;
+	border: 1px solid #7F7F7F;
+	padding: 10px; 
+	margin-bottom: 20px;
+}
+
+.subhead {
+	color: #002200;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+.normalBig {
+	/* line-height: 1.22em; */
+}
+
+.bwlists {
+	list-style-type: disc; 
+	margin-left: 1em;
+}
+
+.pagenavSpanSelected {
+	color: #bbb;
+}
+
+.searchBtn {
+	font-weight: bold !important;
+	color: #fff;
+	background-color: #C6885B;
+	border: 1px solid #B5805A;
+	padding: 1px 6px;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: normal;
+}
+
+td.ml-valign-top{
+	vertical-align: top !important;
+}
+
+ul.ml-ul-desc {
+	padding: 0px !important;
+	margin: 4px 0px 10px 3em  !important;
+}
+
+ul.ml-ul-desc li.ml-li-desc {
+	list-style:disc outside none !important;
+	padding: 3px 10px 1px 3px !important;
+	background: none !important;
+	margin: 0px !important;
+}
+
+ol.ml-ol-desc {
+	padding: 0px !important;
+	margin: 4px 0px 10px 3em !important;
+}
+
+ol.ml-ol-desc li.ml-li-desc {
+	list-style:decimal outside none !important;
+	padding: 3px 10px 1px 3px !important;
+	background: none !important;
+	margin: 0px !important;
+}
+
+div.ml-confirmation-div {
+	padding-top: 8px;
+	padding-bottom: 5px;
+
+}
+
+body {
+	font-size: 11px;
+	line-height:18px !important;
+}
+
+#container .content #right_col .content_section{
+clear:both;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+
+ul, ol, ul li, ol li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.searchBtn2 {
+    background: url("/web/20140607003754im_/http://www.itwhitepapers.com/images/search.png") no-repeat scroll 0 0 transparent;
+    border-style: none;
+    height: 25px;
+    width: 28px;
+}
+
+#ml_submit{
+background:url("/web/20140607003754im_/http://www.itwhitepapers.com/images/submit-btn.png") no-repeat scroll center top transparent !important;
+height:50px;
+width:220px;
+border:none !important;
+text-align:center;
+margin-left:30px !important;
+color:#FFFFFF !important;
+cursor:pointer !important;
+}
+
+#container #site_header #nav ul li:last-child a:hover{
+background:none !important;
+}
+
+ul.topic_col li {
+	background-image:url("/web/20140607003754im_/http://www.itwhitepapers.com/images/list_bullet.gif");
+	background-position:left 6px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+}
+
+#main {
+	/* float: right; */
+	width: 950px;
+	background: #fff;
+}
+
+#secondary-content {
+float: right;
+width: 250px;
+}
+
+#main-padded {
+padding: 4px 0px;
+}
+
+#main-content {
+float: left;
+width: 690px;
+margin-top: 15px;
+}
+
+/* jobs-ars is the sidebar div */
+
+#jobs-ars {
+	margin-bottom: 5px;
+}
+
+.curveBoxBar{
+	color: #000; font-size: 18px; font-weight: bold; margin: 0; padding-top: 5px ; 
+	}
+	
+.curveBoxBar a {
+	/* color: #000 !important; */
+	line-height: 1.22em;
+}
+
+#jobs-ars h2 {
+		color: #000 !important;
+		font-family: Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+#jobs-ars div.cufon {
+    color: #000;
+    font-size: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.textHead {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #002200;
+	font-size:15px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+div.cufon {
+	margin-bottom:5px;
+}
+
+#footer { position: static !important }
+
+a.tag {font-weight: bold;}
+
+a.vendorName {font-weight: bold;}
+
+.titleHead{
+	color: #002200; 
+	/* font-family: Georgia,"Times New Roman",Times,serif; */
+	background-image:url("/web/20140607003754im_/http://www.itwhitepapers.com/images/header_arrow.gif");
+	background-position:left 4px;
+	background-repeat:no-repeat;
+	font-size:21px;
+	font-weight:bold;
+	line-height:normal;
+	margin-bottom:8px;
+	margin-left:-10px;
+	padding-left:21px;
+}
+
+.titleHead2{
+	color: #002200; 
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 17px; 
+	font-weight: bold; 
+	margin: 0; 
+	padding-top: 5px ; 
+}
+
+/* --------------------------- */
+/* from bw stylesheet */
+/* --------------------------- */
+
+h1{
+}
+
+h2{
+}
+
+h3{
+
+}
+
+h1,h2,h3{
+margin:1em 0;
+}
+
+h1,h2,h3,h4,h5,h6,strong{
+font-weight:bold;
+}
+
+em{
+font-style:italic;
+}
+
+blockquote,ul,ol,dl{
+margin:1em;
+}
+
+ol,ul,dl{
+margin-left:2em;
+}
+
+ol li{
+list-style: decimal outside;
+}
+
+ul li{
+/*list-style: disc outside;*/
+}
+
+dl dd{
+
+}
+
+th {
+font-weight:bold;
+text-align:center;
+}
+
+caption {
+margin-bottom:.5em;
+text-align:center;
+}
+
+p,fieldset {
+margin-bottom:1em;
+}
+
+strong {
+font-weight: bold;
+}
+
+td, th {
+border: none;
+}
+
+input.hidden {
+display: none !important;
+padding: 0;
+border: 0;
+}
+
+.asterisk {
+color: red;
+}
+
+#ml-content h1 {
+	font-size: 16px;
+  text-transform: uppercase; 
+}
+
+
+#container {
+position: relative;
+min-height:100%;
+/*background-color: #fff;*/
+}
+
+#wrapper {
+text-align: left;
+position: relative;
+margin: 0 auto;
+width: 980px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#tn-crumbs,#tn-crumbs li,#tn-crumbs li span,#tn-crumbs li a {
+/*height: 21px;
+line-height: 21px;*/
+list-style: none outside none;
+font-size:11px ;
+}
+
+#tn-crumbs {
+position: relative;
+background-color: #FFFFFF;
+overflow: hidden;
+clear: left;
+}
+
+#tn-crumbs li {
+float: left;
+}
+
+#tn-crumbs li a,#tn-crumbs li span {
+float: left;
+display: block;
+padding: 0 7px 0 10px;
+font-size:.98em;
+}
+
+#tn-crumbs li a:hover {
+
+}
+
+#tn-crumbs li#first-crumb a {
+background-image: none;
+padding-left: 0;
+text-decoration: none;
+font-weight: bold;
+}
+
+#tn-crumbs li#first-crumb a:hover {
+color: #333 !important; 
+}
+
+#tn-crumbs-end {
+float: right;
+margin: 5px;
+}
+
+#ml-content {
+position: relative;
+background: #fff;
+background-color: #fff;
+overflow: hidden;
+margin-bottom: 24px;
+}
+
+#ml-content .main-cols {
+position: relative;
+}
+
+
+fieldset,img{
+border:0;
+}
+
+
+
+.bg-box{
+	margin-bottom: 15px; 
+	padding: 12px;
+}
+
+.bg-box2{
+	margin-bottom: 15px; 
+	padding: 12px;
+}
+
+.no-bg-box{
+	margin-bottom: 15px; 
+	padding: 12px;
+}
+
+.subhead {
+	font-weight: bold;
+	text-transform:uppercase;
+	font-size: 1.2em;
+}
+
+.bwTopBottomLine{
+	padding-top:20px; 
+	padding-bottom:20px;
+}
+
+.bwTopBottomThinLine{
+	padding-top:10px; 
+	padding-bottom:8px;
+}
+
+.bwTopLine{
+	padding-top:8px; 
+	padding-bottom:12px; 
+}
+
+.bwTopThinLine{
+	padding-top:5px; 
+	padding-bottom:5px; 
+}
+
+.bwBottomLine{
+	padding-bottom: 2px;
+	margin-bottom:2px;
+}
+
+.bwBottomThinLine{ 
+	padding-bottom: 5px;
+	margin-bottom:8px;
+}
+
+/* bizreport-specific */
+
+.jobs {
+	width: 100% !important;
+}
+
+ul {
+	margin: 0px;
+}
+
+h2 a {
+	font-size: 18px;
+}
+
+h3 a {
+	/* font-size: 15px; */
+	text-decoration: underline;
+	/*font-weight: bold;*/
+}
+
+a.more{
+	background:url(/web/20140607003754im_/http://www.itwhitepapers.com/images_common/crumbs_arrow_transparent.gif) no-repeat scroll right center transparent;
+	padding-right: 10px;
+	color: #000;
+}
+
+a.less{
+	background:url(/web/20140607003754im_/http://www.itwhitepapers.com/images/bw_left_arrow.gif) no-repeat scroll right center transparent;
+	padding-right: 10px;
+	color: #000;
+}
+
+p, body, td, li, div {
+
+}
+
+p.ml-paragraph {
+	font-size: 12px;
+	line-height: 19px;
+}
+
+h1, h2, h3 {
+	/* margin-top: 2px; 
+	margin: 5px 0px 2px 0px !important;*/
+}
+
+form input[type="submit"] {
+font-weight:normal !important;
+padding:3px 6px !important;
+font-size: 10px !important;
+}
+
+
+td {
+	vertical-align: top !important;
+}
+
+tbody tr td form select {
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+tbody tr td form input {
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.ml-module-content {
+	padding: 10px 21px 5px 21px;
+}
+
+a:hover {
+	border-bottom:1px dotted #002200;
+}
+
+a.logo:hover {
+	border-bottom: 0px none;
+}
+
+
+/*
+     FILE ARCHIVED ON 00:37:54 Jun 07, 2014 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:47 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.414
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.013
+  esindex: 0.007
+  cdx.remote: 14.342
+  LoadShardBlock: 117.28 (3)
+  PetaboxLoader3.resolve: 250.364 (3)
+  PetaboxLoader3.datanode: 74.437 (5)
+  load_resource: 268.716 (2)
+*/
