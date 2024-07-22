@@ -37,6 +37,7 @@ ul li {list-style-type: none;
         BORDER-BOTTOM: #333333 1px solid; 
         BORDER-RIGHT:  #333333 1px solid; 
 		margin: 10px;
+		margin-top: 15px;
 		padding: 5px;
 		background-color:	#FAFAFF;
 }
