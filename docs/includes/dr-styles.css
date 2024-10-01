@@ -45,3 +45,11 @@ ul li {list-style-type: none;
 .year {
 	font-style: italic;
 }
+
+.blog-thumb {
+	width: 200px;
+}
+
+.blog-thumb:hover {
+	box-shadow: 0 0 2px 1px rgb(255,170,17);
+}

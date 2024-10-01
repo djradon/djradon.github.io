@@ -5,4 +5,4 @@
 #desertBack {position:absolute; left:500px; top:0px; z-index:100; height:158px; }
 #dr   {position:absolute; left:10px; top:5px; z-index:800;}
 #fpcontent {position:absolute; top:273px; width:95%; z-index:1000; padding:0%}
-#site-title {z-index:}
+#site-title {z-index:100}
