@@ -4,8 +4,9 @@ body { font-size:10px; color:#000000; font-family: verdana,sans-serif; backgroun
 
 .thisText {font-family: verdana, sans-serif;font-size:11px; }
 
-h1 {font-family: verdana, sans-serif;font-size:14px; padding:0px; margin:0px 0px 10px 0px; }
+h1 {font-family: verdana, sans-serif;font-size:18px; padding:0px; margin:0px 0px 10px 0px; }
 h2 {font-family: verdana, sans-serif;font-size:14px; padding:0px; margin:0px; }
+h2.bloghead {font-family: verdana, sans-serif;font-size:18px; padding:0px 0px 10px 0px; margin:0px; }
 
 b { font-size:10px; color:#000033; font-family: verdana, sans-serif;  font-weight: bold;}
 
@@ -18,7 +19,7 @@ p { font-size:10px; color:#000033; font-family: verdana, sans-serif; }
 td { font-size:10px; color:#000033; font-family: verdana, sans-serif; width:25%;}
 
 a.head{ text-decoration: underline; font-size:14px;}
-a:visited{ text-decoration: underline; color: #ffaa11; }
+a:visited{ text-decoration: underline; color: rgb(24, 47, 23); }
 a:hover{ text-decoration: underline; color: #000048;}
 
 ul	{margin: 0px;
